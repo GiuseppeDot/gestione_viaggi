@@ -1,13 +1,13 @@
-package com.example.gestione_viaggi.viaggio;
+//package com.example.gestione_viaggi.viaggio;
 
-import jakarta.persistence.Entity;
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+//import jakarta.persistence.Entity;
+//import lombok.AllArgsConstructor;
+//import lombok.NoArgsConstructor;
 
-@Entity
-@AllArgsConstructor
-@NoArgsConstructor
-public enum StatoViaggio {
-    IN_PROGRAMMA, COMPLETATO
+//@Entity
+//@AllArgsConstructor
+//@NoArgsConstructor
+//public enum StatoViaggio {
+//    IN_PROGRAMMA, COMPLETATO
 
-}
+//}
