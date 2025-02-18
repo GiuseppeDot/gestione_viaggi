@@ -1,0 +1,4 @@
+package com.example.gestione_viaggi.exception;
+
+public class CustomExceptionHandler {
+}

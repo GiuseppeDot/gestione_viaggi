@@ -3,6 +3,7 @@ package com.example.gestione_viaggi.prenotazione;
 
 import com.example.gestione_viaggi.dipendente.Dipendente;
 import jakarta.persistence.Entity;
+import lombok.Data;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
@@ -10,6 +11,7 @@ import java.time.LocalDate;
 import java.util.List;
 import java.util.Optional;
 
+@Data
 @Service
 @RequiredArgsConstructor
 public class PrenotazioneService {
@@ -39,4 +41,5 @@ public class PrenotazioneService {
     public void deleteById(Long id) {
         prenotazioneRepository.deleteById(id);
     }
+
 }

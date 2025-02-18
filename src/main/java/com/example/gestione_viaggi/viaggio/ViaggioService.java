@@ -31,7 +31,7 @@ public class ViaggioService {
     public Viaggio updateStato(Long id, String stato) {
         Viaggio viaggio = viaggioRepository.findById(id).orElseThrow(() -> new RuntimeException
                 ("Viaggio non trovato"));
-        viaggio.setStato(StatoViaggio.valueOf(stato));
+        viaggio.setStato(Viaggio.StatoViaggio.valueOf(stato));
         return viaggioRepository.save(viaggio);
     }
 
